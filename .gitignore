@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+#Añade las carpetas 'node_modules' y 'dist'
+#El dist se genera automaticamente al compilar y por lo tanto no debe subirse
+#El node_modules lo ignora porque se espera que quien vaya a abrir el proyecto ya lo tenga en su ordenador, además pesa demasiado.
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
