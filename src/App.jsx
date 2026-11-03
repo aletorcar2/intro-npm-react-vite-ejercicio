@@ -4,12 +4,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 import confetti from 'canvas-confetti';
+import PlanetScene from './PlanetScene'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <PlanetScene></PlanetScene>
 
       <section id="center">
         <div className="hero">
