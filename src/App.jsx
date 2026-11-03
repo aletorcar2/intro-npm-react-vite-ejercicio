@@ -3,12 +3,14 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import confetti from 'canvas-confetti';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
@@ -28,6 +30,22 @@ function App() {
         >
           Count is {count}
         </button>
+
+        <button
+        type="button"
+        className="counter"
+        onClick={() => {
+          setCount((count) => count + 1);
+          confetti({
+            particleCount: 150,
+            spread: 80,
+            origin: { y: 0.6 }
+          });
+        }}
+      >
+        Confetti
+      </button>
+      
       </section>
 
       <div className="ticks"></div>
