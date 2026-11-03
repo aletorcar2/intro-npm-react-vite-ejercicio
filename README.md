@@ -1,16 +1,24 @@
-# React + Vite
+# Ejercicio React
+Este es un proyecto que explica brevemente un stack de trabajo para hacer un proyecto en react:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    npm para gestionar dependencias y hacer la build
+    vite para iniciar el proyecto y el servidor
+    react como framework usado
 
-Currently, two official plugins are available:
+## Dependencia React-Confetti
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<img alt= "Web con dependencia React-confetti" src="./images/1web-confetti.png" style="display: block; margin: 0 auto;" width="70%"> 
 
-## React Compiler
+## Dependencia Canvas-Confetti
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<img alt= "Web con dependencia Canvas-confetti" src="./images/2web-canvasconfetti.png" style="display: block; margin: 0 auto;" width="70%"> 
 
-## Expanding the ESLint configuration
+## Dependencia React-Three-Fiber para renderizado 3D
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img alt= "Web con dependencia Renderizado 3D" src="./images/3-web-escena3d.png" style="display: block; margin: 0 auto;" width="70%"> 
+
+
+Si la carpeta node_modules/ está excluida, ¿borrar una dependencia hace alguna acción sobre el repositorio? ¿Cuál?
+
+
+
